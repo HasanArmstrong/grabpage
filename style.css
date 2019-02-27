@@ -1,11 +1,126 @@
-.logo {
-    margin-right:15px;
-    margin-top:7px;
-    height:35px;
-    width:91px;
+
+
+.bg-custom {
+    font-family:"Sanomat Grab Web Regular", sans-serif;
+    font-size:18.4px;
+    line-height: 1.42857;
+    color: rgb(51, 51, 51);
+    background-color: rgb(255, 255, 255);
+    line-height: 30px;
+    letter-spacing:normal;
+    height:64px;
+}
+
+nav {
+    position:fixed;
+    background-color:white;
+    width:100%;
+}
+
+.bg-image {
+    background-color:white;
+}
+
+.background-custom {
+   height:448.7px;
+   background-image: url("https://assets.grab.com/wp-content/uploads/sites/11/2018/10/15123832/grab_safety_headerimage.png")
+}
+
+.custom-text {
+    font-weight: 800 !important;
+    font-size: 48.5px;
+    margin-bottom: 10px;
+    line-height: 1;
+    color:white;
+    margin-top:150px;
+    height: 196px;
+    width: 452px;
+    margin-left:80px;
+}
+.carousal-custom {
+    top: 50%;
+    left: 12%;
+    right: inherit;
+    text-align: left;
+    bottom: inherit;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
+    margin-top: 60px;
+    width: 35%;
+}
+
+
+.fas.fa-angle-down {
+    margin-left:7px;
+    position: relative;
+    top: 4px;
+}
+
+.custom-nav {
+    align-items:center;
+    flex-direction:column;
+    height:63px;
+    margin-left:30px;
+}
+
+.btn.btn-success {
+    background-color:white;
+    color:green;
+}
+
+.custom-arrow  {
+    position:relative;
+    top:6px !important;
+}
+
+.p-2 {
+    font-size: 1.150em;
+    margin-right:16px;
+}
+
+.brandimage {
+    margin-bottom:10px;
+}
+.bg-size-cover.img-size-cover{
+ background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.btn-custom {
+    background-color:#00b140 !important;
+    color:white !important;
+    margin-left:80px;
+    margin-top:-55px;
+    
+}
+
+.custom-jumbo {
+    height:1014px;
+    font-size:41.136px;
+    padding-top:40px !important;
+}
+.grabsecondpage {
+font-family: "Sanomat Grab Web Bold", sans-serif;
+font-size: 41.136px;
+font-weight:600;
+text-transform:bold;
+color:#00BA51;
 
 }
 
 a {
-    font-family: Sanomat Grab Web Regular, sans-serif
+color:black !important;
+text-decoration:none !important;
+}
+
+a:hover {
+    color:#00BA51 !important;
+}
+.custom-button-nav {
+    border: solid 2px #00b13f !important;
+    color:#00BA51 !important;
+    font-size:1em !important;
 }
