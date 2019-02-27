@@ -124,3 +124,8 @@ a:hover {
     color:#00BA51 !important;
     font-size:1em !important;
 }
+.btn.btn-success
+{
+    background-color:white !important;
+
+}
